@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="docsearch:name" content="Aksha" />
+    <meta name="docsearch:package_type" content="" />
+    <meta name="docsearch:release" content="" />
+    <meta name="docsearch:version" content="" />
+
+    <title>camera_database module &mdash; Aksha  documentation</title>
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/fontawesome.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/webfonts.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/theme.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/codeblock.css" />
+<!-- linktags -->
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="top" title="Aksha  documentation" href="#" />
+    <link rel="up" title="src" href="modules.html" />
+    <link rel="next" title="config module" href="config.html" />
+    <link rel="prev" title="app_new module" href="app_new.html" />
+<!-- /linktags -->
+<!-- extrahead --><!-- /extrahead -->
+    <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="page">
+
+        <div class="page-header">
+            <div class="page-header-inner">
+<!--block pageheader-->
+<div class="row">
+    <div class="col-sm-6 col-lg-7">
+
+        <div class="logo">
+        <a href="https://docs.typo3.org/" title="TYPO3 Documentation" >
+
+            <img src="_static/img/typo3-logo.svg" width="484" height="130" alt="TYPO3 Logo" class="logo-image" />
+        </a>
+        </div>
+    </div><!--/.col-x-->
+    <div class="col-sm-6 col-lg-5">
+        <div role="search">
+            
+            <!--form global search-->
+        </div>
+    </div><!--/.col-x-->
+</div><!--/.row-->
+<!--/block pageheader-->
+            </div><!--/.page-header-inner-->
+        </div><!--/.page-header-->
+
+        
+
+        <div class="page-main">
+            <div class="page-main-inner">
+                <div class="page-main-navigation">
+                    <nav>
+                        <input type="checkbox" id="toggleToc" class="toc-checkbox">
+                        <div class="toc-header"><div class="toc-title">
+                                    <a class="toc-title-project" href="index.html">Aksha</a></div><div class="toc-actions">
+                                <label for="toggleToc" class="toc-toggle">
+                                    Menu
+                                </label>
+                            </div>
+                        </div>
+                        <div class="toc-collapse">
+<!-- searchbox.html -->
+<div id="searchbox" class="toc-search" role="search">
+    <form id="search-form" action="search.html" autocomplete="off" method="get">
+        <input class="form-control" type="text" name="q" placeholder="Search this project" aria-label="Search this project" id="searchinput" />
+        <input type="hidden" name="check_keywords" value="yes" />
+        <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<!-- /searchbox.html -->
+                            <div class="toc" role="navigation" aria-label="main navigation">
+<!-- menu -->
+                                        <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">ML</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="alerts_date.html">alerts_date module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="anomaly_check.html">anomaly_check module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="app.html">app module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="app_new.html">app_new module</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">camera_database module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="config.html">config module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="data_collection.html">data_collection module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="database_config.html">database_config module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="deletion.html">deletion module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="email_handler.html">email_handler module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enc_dyc_cfg.html">enc_dyc_cfg module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="enc_dyc_model.html">enc_dyc_model module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="encrypt.html">encrypt module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="forms.html">forms module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_popup.html">image_popup module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="image_utils.html">image_utils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="main_rule_based.html">main_rule_based module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="main_rule_based_time.html">main_rule_based_time module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="main_with_object_based_anomaly.html">main_with_object_based_anomaly module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mongo.html">mongo module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="object_area.html">object_area module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="object_detection.html">object_detection module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="object_multi_area_point.html">object_multi_area_point module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prefilter.html">prefilter module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="process_creator.html">process_creator module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="purging.html">purging module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rule_popup.html">rule_popup module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="utilities.html">utilities module</a></li>
+</ul>
+</li>
+</ul>
+
+                                    <p class="caption"><span class="caption-text">PAGE CONTENTS</span></p>
+                                    <ul>
+<li><a class="reference internal" href="#">camera_database module</a></li>
+</ul>
+<!-- /menu -->
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="page-main-content">
+                    <div class="rst-content">
+<!-- pager-hidden.html -->
+
+        <a class="no-focus" accesskey="p" href="app_new.html" tabindex="-1"></a>
+        <a class="no-focus" accesskey="n" href="config.html" tabindex="-1"></a>
+<!-- /pager-hidden.html -->
+<!-- breadcrumbs.html -->
+<div class="breadcrumb-bar" role="navigation" aria-label="breadcrumbs navigation">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Start</a></li>
+            <li class="breadcrumb-item"><a href="modules.html">src</a></li>
+        <li class="breadcrumb-item active" aria-current="page">camera_database module</li>
+    </ol>
+    <div class="breadcrumb-additions">
+        <a class="btn btn-sm btn-light" href="_sources/camera_database.rst.txt" rel="nofollow">
+            <span class="btn-icon"><span class="fas fa-code"></span></span>
+            <span class="btn-text">View source</span>
+        </a>
+    </div>
+</div>
+<!-- /breadcrumbs.html -->
+<!-- displaysettingsui.html -->
+<div id="displaysettingsui" class="displaysettingsui">
+<div class="dsDivCogwheel"><i id="dsCogwheel" class="fas fa-cog" title="Display settings"></i></div>
+<div id="dsPanel" class="dsPanel" ><p><b>Display settings</b></p>
+<input type="checkbox" id="cbFullWidth"><label for="cbFullWidth">Use full width</label><br>
+Color scheme of code blocks:<br>
+<input type="radio" name="rbCbsTheme" id="rbCbsThemeDark" checked="checked" value="dark"/>
+<label for="rbCbsThemeDark">dark</label>
+<input type="radio" name="rbCbsTheme" id="rbCbsThemeLight" value="light"/>
+<label for="rbCbsThemeLight">light</label><br>
+<input type="checkbox" id="cbPermanent"><label for="cbPermanent">Make settings permanent</label><br>
+</div><!--/.dsPanel-->
+</div><!--/.displaysettingsui-->
+<!-- /displaysettingsui.html -->
+<!-- versionhints.html -->
+<div class="version-hints">
+
+    <div class="version-hints-inner" data-run-ajax="no">
+<!--filled from _static/ajax-version-hints.html-->
+</div><!--/.version-hints-inner-->
+</div><!--/.version-hints-->
+<!-- /versionhints.html -->
+                        <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+                            <div itemprop="articleBody">
+<!-- body -->
+    <section id="camera-database-module">
+<h1>camera_database module<a class="headerlink" href="#camera-database-module" title="Permalink to this headline">¶</a></h1>
+<p>The camera_database() module consists of all the necessary and important functions related to camera’s configuration.</p>
+<p>This module provides a range of functionality; all related to cameras in our system like adding an additional camera to our database, editing the config to any specific camera, load or update configuration or a single camera or all cameras, add rules to the specific camera or all the cameras and also to delete any specifc rule for a single or all the cameras.</p>
+<span class="target" id="module-camera_database"></span><dl class="py function">
+<dt class="sig sig-object py" id="camera_database.add_camera">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">add_camera</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">input_dict</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.add_camera" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function adds a new camera to the MongoDB database</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">input_dict</dt>
+<dd class="field-odd"><p>A dictionary consisting of Name of a camera, and it’s RTSP link</p>
+</dd>
+<dt class="field-even">type input_dict</dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.add_object_rule">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">add_object_rule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">camera_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object_class</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object_area</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_time</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_time</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">days_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">holiday_status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">workday_status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timestmp</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.add_object_rule" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function adds the complete information regarding an alert to a specific Camera of the MongoDB database</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">camera_id</dt>
+<dd class="field-odd"><p>Camera Name</p>
+</dd>
+<dt class="field-even">type camera_id</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+<dt class="field-odd">object_class</dt>
+<dd class="field-odd"><p>Class of object</p>
+</dd>
+<dt class="field-even">type object_class</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+<dt class="field-odd">object_area</dt>
+<dd class="field-odd"><p>Bounding Box Coordinates of the object detected</p>
+</dd>
+<dt class="field-even">type object_area</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+<dt class="field-odd">start_time</dt>
+<dd class="field-odd"><p>Start time</p>
+</dd>
+<dt class="field-even">type start_time</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">end_time</dt>
+<dd class="field-odd"><p>End time</p>
+</dd>
+<dt class="field-even">type end_time</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">days_list</dt>
+<dd class="field-odd"><p>List of days for which this alert is applicable</p>
+</dd>
+<dt class="field-even">type days_list</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+<dt class="field-odd">holiday_status</dt>
+<dd class="field-odd"><p>Holiday status of the alert</p>
+</dd>
+<dt class="field-even">type holiday_status</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+<dt class="field-odd">workday_status</dt>
+<dd class="field-odd"><p>Workday status of the alert</p>
+</dd>
+<dt class="field-even">type workday_status</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+<dt class="field-odd">timestmp</dt>
+<dd class="field-odd"><p>Current timestamp</p>
+</dd>
+<dt class="field-even">type timestmp</dt>
+<dd class="field-even"><p>object</p>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><p>Updated information regarding the alert inside the MongoDB database</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.add_object_rule_all_cameras">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">add_object_rule_all_cameras</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">camera_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object_class</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object_area</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_time</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_time</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">days_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">holiday_status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">workday_status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">all_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timestmp</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.add_object_rule_all_cameras" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function adds the complete information regarding an alert to all the Cameras of the MongoDB database</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">camera_id</dt>
+<dd class="field-odd"><p>Camera Name</p>
+</dd>
+<dt class="field-even">type camera_id</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+<dt class="field-odd">object_class</dt>
+<dd class="field-odd"><p>Class of object</p>
+</dd>
+<dt class="field-even">type object_class</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+<dt class="field-odd">object_area</dt>
+<dd class="field-odd"><p>Bounding Box Coordinates of the object detected</p>
+</dd>
+<dt class="field-even">type object_area</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+<dt class="field-odd">start_time</dt>
+<dd class="field-odd"><p>Start time</p>
+</dd>
+<dt class="field-even">type start_time</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">end_time</dt>
+<dd class="field-odd"><p>End time</p>
+</dd>
+<dt class="field-even">type end_time</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">days_list</dt>
+<dd class="field-odd"><p>List of days for which this alert is applicable</p>
+</dd>
+<dt class="field-even">type days_list</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+<dt class="field-odd">holiday_status</dt>
+<dd class="field-odd"><p>Holiday status of the alert</p>
+</dd>
+<dt class="field-even">type holiday_status</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+<dt class="field-odd">workday_status</dt>
+<dd class="field-odd"><p>Workday status of the alert</p>
+</dd>
+<dt class="field-even">type workday_status</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+<dt class="field-odd">all_flag</dt>
+<dd class="field-odd"><p>Boolean flag for applying this alert to all the cameras or not</p>
+</dd>
+<dt class="field-even">type all_flag</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+<dt class="field-odd">timestmp</dt>
+<dd class="field-odd"><p>Current timestamp</p>
+</dd>
+<dt class="field-even">type timestmp</dt>
+<dd class="field-even"><p>object</p>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><p>Updated information regarding the alert inside the MongoDB database</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.add_rules_all_cameras">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">add_rules_all_cameras</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">object_class</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">object_area</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_time</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_time</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">days_list</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">holiday_status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">workday_status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">all_flag</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">timestmp</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.add_rules_all_cameras" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function compliments the add_object_rule_all_cameras() function and adds all the information regarding an alert to all the cameras in the MongoDB database</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">object_class</dt>
+<dd class="field-odd"><p>Class of object</p>
+</dd>
+<dt class="field-even">type object_class</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+<dt class="field-odd">object_area</dt>
+<dd class="field-odd"><p>Bounding Box Coordinates of the object detected</p>
+</dd>
+<dt class="field-even">type object_area</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+<dt class="field-odd">start_time</dt>
+<dd class="field-odd"><p>Start time</p>
+</dd>
+<dt class="field-even">type start_time</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">end_time</dt>
+<dd class="field-odd"><p>End time</p>
+</dd>
+<dt class="field-even">type end_time</dt>
+<dd class="field-even"><p>int</p>
+</dd>
+<dt class="field-odd">days_list</dt>
+<dd class="field-odd"><p>List of days for which this alert is applicable</p>
+</dd>
+<dt class="field-even">type days_list</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+<dt class="field-odd">holiday_status</dt>
+<dd class="field-odd"><p>Holiday status of the alert</p>
+</dd>
+<dt class="field-even">type holiday_status</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+<dt class="field-odd">workday_status</dt>
+<dd class="field-odd"><p>Workday status of the alert</p>
+</dd>
+<dt class="field-even">type workday_status</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+<dt class="field-odd">all_flag</dt>
+<dd class="field-odd"><p>Boolean flag for applying this alert to all the cameras or not</p>
+</dd>
+<dt class="field-even">type all_flag</dt>
+<dd class="field-even"><p>bool</p>
+</dd>
+<dt class="field-odd">timestmp</dt>
+<dd class="field-odd"><p>Current timestamp</p>
+</dd>
+<dt class="field-even">type timestmp</dt>
+<dd class="field-even"><p>object</p>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><p>Updated information regarding the alert inside the MongoDB database</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.delete_all_object_rule">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">delete_all_object_rule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rule_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">camera</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.delete_all_object_rule" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function finds and deletes all the rules of a specific camera from the MongoDB database</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">camera</dt>
+<dd class="field-odd"><p>Camera Name</p>
+</dd>
+<dt class="field-even">type camera</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+<dt class="field-odd">rule_id</dt>
+<dd class="field-odd"><p>Rule id</p>
+</dd>
+<dt class="field-even">type rule_id</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.delete_object_rule">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">delete_object_rule</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">camera_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rule_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.delete_object_rule" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function finds and deletes a specific rule from the MongoDB database</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">camera_id</dt>
+<dd class="field-odd"><p>Camera Name</p>
+</dd>
+<dt class="field-even">type camera_id</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+<dt class="field-odd">rule_id</dt>
+<dd class="field-odd"><p>Rule id</p>
+</dd>
+<dt class="field-even">type rule_id</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.edit_camera">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">edit_camera</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">camera_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">input_dict</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.edit_camera" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function is used to update an existing camera database in MongoDB</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">camera_id</dt>
+<dd class="field-odd"><p>Camera Name</p>
+</dd>
+<dt class="field-even">type camera_id</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+<dt class="field-odd">input_dict</dt>
+<dd class="field-odd"><p>A dictionary consisting of necessary information which is supposed to be updated in the database</p>
+</dd>
+<dt class="field-even">type input_dict</dt>
+<dd class="field-even"><p>dict</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.get_cameras">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">get_cameras</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">database</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.get_cameras" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function creates a list of all camera names inside a specific database</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">database</dt>
+<dd class="field-odd"><p>Database Name</p>
+</dd>
+<dt class="field-even">type database</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><p>A list of all camera names inside the database</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.load_rules">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">load_rules</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">camera_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.load_rules" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function finds all the properties of a specific camera like it’s alert status, anomaly alerts and whether to email its anomaly status or not.</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">camera_id</dt>
+<dd class="field-odd"><p>Camera Name</p>
+</dd>
+<dt class="field-even">type camera_id</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><p>alert_status (Boolean),
+anomaly_email_status (Boolean),
+anomaly_status (Boolean),
+object_rules (list),</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.setup_client">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">setup_client</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.setup_client" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function finds the name of a database from MongoDB which can be further utilized in different functions</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Returns:</dt><dd><p>Database Name</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.unique_id">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">unique_id</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">database</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.unique_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function finds the Unique ID of any specific camera</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">database</dt>
+<dd class="field-odd"><p>Database Name</p>
+</dd>
+<dt class="field-even">type database</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><p>: 1 (int)</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="camera_database.update_rule_activations">
+<span class="sig-prename descclassname"><span class="pre">camera_database.</span></span><span class="sig-name descname"><span class="pre">update_rule_activations</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">camera_id</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">alert_status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anomaly_status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">anomaly_email_status</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">rule_status</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#camera_database.update_rule_activations" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function updates rules regarding a specific camera inside the MongoDB database</p>
+<blockquote>
+<div><dl class="simple">
+<dt>Inputs:</dt><dd><dl class="field-list simple">
+<dt class="field-odd">camera_id</dt>
+<dd class="field-odd"><p>Camera Name</p>
+</dd>
+<dt class="field-even">type camera_id</dt>
+<dd class="field-even"><p>string</p>
+</dd>
+<dt class="field-odd">rule_status</dt>
+<dd class="field-odd"><p>Rules for the specific camera</p>
+</dd>
+<dt class="field-even">type rule_status</dt>
+<dd class="field-even"><p>list</p>
+</dd>
+</dl>
+</dd>
+<dt>Returns:</dt><dd><p>Updated rules for the specific camera</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+</section>
+
+<!-- /body -->
+                            </div>
+                        </div>
+<!-- pager.html -->
+<nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+        <li class="page-item">
+            <a class="page-link" href="app_new.html" title="Accesskey Alt(+Shift)+p">
+                Previous
+            </a>
+        </li>
+        <li class="page-item">
+            <a class="page-link" href="config.html" title="Accesskey Alt(+Shift)+n">
+                Next
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+<!-- /pager.html -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <div class="page-footer">
+<!-- footer.html -->
+<footer>
+    <div class="frame frame-ruler-before frame-background-dark">
+        <div class="frame-container">
+            <div class="frame-inner">
+                <div class="footer-additional">
+                    <ul class="footer-simplemenu">
+                        <li><a href="https://github.com/TYPO3-Documentation/sphinx_typo3_theme" title="sphinx_typo3_theme" target="_blank">
+                        <span>TYPO3 Theme 4.7.9</span></a></li>
+                    </ul>
+                </div>
+                <div class="footer-meta">
+                    <div class="footer-meta-copyright">
+                        &copy; Copyright 2022, AlgoAnalytics
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- /footer.html -->
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT: './',
+            VERSION: '',
+            COLLAPSE_INDEX: false,
+            FILE_SUFFIX: '.html',
+            HAS_SOURCE: true
+        };
+    </script>
+    <script type="text/javascript" src="_static/js/jquery.min.js"></script>
+    <script type="text/javascript" src="_static/js/underscore.min.js"></script>
+    <script type="text/javascript" src="_static/js/doctools.min.js"></script>
+    <script type="text/javascript" src="_static/js/popper.min.js"></script>
+    <script type="text/javascript" src="_static/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/js/theme.min.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <script type="text/javascript" src="_static/js/searchtools.min.js"></script>
+    <script type="text/javascript" src="_static/js/autocomplete.min.js"></script>
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=9c920249402e914e316237a7dbc6769907cce411"></script>
+    <script type="text/javascript">
+        jQuery(function() { Search.loadIndex("searchindex.js"); });
+    </script>
+    <script type="text/javascript" id="searchindexloader"></script>
+<!-- scripts2 --><!-- /scripts2 -->
+<!-- footer2 --><!-- /footer2 -->
+
+</body>
+</html>
