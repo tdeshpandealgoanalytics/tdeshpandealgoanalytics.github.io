@@ -1,4 +1,9 @@
 # Aksha
+
+## Overviwe
+---
+Aksha is an AI powered video surveillance system which can be used to generate real time alerts from CCTV camera feeds. Live data from multiple cameras in the form of images is analysed and appropriate notifications are sent to the user
+---
 ## Functionalities of Aksha
 ---
 title: "Objects of interest"
