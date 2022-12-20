@@ -25,11 +25,7 @@ Aksha is an AI powered video surveillance system which can be used to generate r
 &NewLine;
 &NewLine;
 &NewLine;
-&NewLine;
-&NewLine;
-&NewLine;
-&NewLine;
-&NewLine;
+&nbsp;
 
 ### Objects of interest
 - Aksha provides a choice of objects that can be detected on the live
@@ -43,8 +39,7 @@ camera feed are displayed on the application UI.
 &NewLine;
 &NewLine;
 &NewLine;
-&NewLine;
-&NewLine;
+&nbsp;
 
 ### Live Screen
 
@@ -57,8 +52,7 @@ camera feed are displayed on the application UI.
 &NewLine;
 &NewLine;
 &NewLine;
-&NewLine;
-&NewLine;
+&nbsp;
 
 ### Activity Tracker (Motion Heatmaps)
 
