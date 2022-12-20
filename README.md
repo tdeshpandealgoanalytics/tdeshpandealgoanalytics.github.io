@@ -1,15 +1,15 @@
----
+
 # Aksha V1 Manual
 
----
+
 
 ## Overview
----
+
 Aksha is an AI powered video surveillance system which can be used to generate real time alerts from CCTV camera feeds. Live data from multiple cameras in the form of images is analysed and appropriate notifications are sent to the user
 
 ## Features of Aksha
 
----
+
 
 
 ### Unusual Situations (Anomaly Detection)
@@ -38,6 +38,7 @@ camera feed are displayed on the application UI.
 
 &NewLine;
 &NewLine;
+&nbsp;
 [![N|Solid](https://github.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/blob/main/OOI2.png)](https://nodesource.com/products/nsolid)
 &NewLine;
 &NewLine;
@@ -74,9 +75,9 @@ camera feed are displayed on the application UI.
 - Rules for object detection alerts can be set and notifications can be turned on or off on the basis of the user’s requirements.
 
 &nbsp;
-### &emsp;  &emsp; [Aksha high level representation](https://docs.google.com/document/d/1vUzavJAkMhgJUrYcn8C2s0i1faNobh3aA0q8pGz_iPM/edit?usp=sharing)
+### &emsp;  &emsp; - [Aksha high level representation](https://docs.google.com/document/d/1vUzavJAkMhgJUrYcn8C2s0i1faNobh3aA0q8pGz_iPM/edit?usp=sharing)
 &nbsp;
 
-### &emsp;  &emsp; [Aksha Code Documentation](https://raw.githack.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/main/Docs/_build/html/index.html) - Aksha V1 Codebase
+### &emsp;  &emsp; - [Aksha Code Documentation](https://raw.githack.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/main/Docs/_build/html/index.html) 
 
 
