@@ -65,6 +65,6 @@ camera feed are displayed on the application UI.
 - Rules for object detection alerts can be set and notifications can be turned on or off on the basis of the user’s requirements.
 
 
-- ### [Aksha Code Documentation](https://raw.githack.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/main/Docs/_build/html/index.html) - Aksha V1 Codebase
+### &emsp;  &emsp; &emsp; &emsp; &emsp; &emsp; [Aksha Code Documentation](https://raw.githack.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/main/Docs/_build/html/index.html) - Aksha V1 Codebase
 
 
