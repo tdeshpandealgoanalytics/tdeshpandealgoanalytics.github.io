@@ -20,7 +20,7 @@ Aksha is an AI powered video surveillance system which can be used to generate r
 - Along with the alerts, the application also displays the anomalous images.
 - Previously generated anomalies are also accessible through the application.
 
-[![N|Solid](https://github.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/blob/main/unusual.JPG)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://github.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/blob/main/TruckInPremises.png)](https://nodesource.com/products/nsolid)
 
 &NewLine;
 &NewLine;
@@ -38,6 +38,8 @@ camera feed are displayed on the application UI.
 
 &NewLine;
 &NewLine;
+[![N|Solid](https://github.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/blob/main/OOI2.png)](https://nodesource.com/products/nsolid)
+&NewLine;
 &NewLine;
 &nbsp;
 
@@ -47,7 +49,7 @@ camera feed are displayed on the application UI.
 - Each of the image in the grid is updated in real time.
 - Indications of alerts for anomalies and objects are provided while the frames are being updated.
 
-[![N|Solid](https://github.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/blob/main/WhatsApp%20Image%202022-12-19%20at%204.27.06%20PM.jpeg)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://github.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/blob/main/Live2.png)](https://nodesource.com/products/nsolid)
 
 &NewLine;
 &NewLine;
@@ -58,6 +60,13 @@ camera feed are displayed on the application UI.
 
 - Heatmaps are generated for a camera on the basis of observed motion in the feed for the specified date.
 - The intensity of motion is captured and the areas with the most activity are depicted on a reference image from the same camera.
+
+[![N|Solid](https://github.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/blob/main/ActivityTracker.png)](https://nodesource.com/products/nsolid)
+
+&NewLine;
+&NewLine;
+&NewLine;
+&nbsp;
 
 ### My Alerts (Alert Customization)
 
