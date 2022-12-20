@@ -20,7 +20,7 @@ Aksha is an AI powered video surveillance system which can be used to generate r
 - Along with the alerts, the application also displays the anomalous images.
 - Previously generated anomalies are also accessible through the application.
 
-[![N|Solid](https://github.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/blob/main/TruckInPremises.png)](https://nodesource.com/products/nsolid)
+[![N|Solid](https://github.com/tdeshpandealgoanalytics/tdeshpandealgoanalytics.github.io/blob/main/tip.png)](https://nodesource.com/products/nsolid)
 
 &NewLine;
 &NewLine;
